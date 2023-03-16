@@ -120,7 +120,7 @@
 .endm
 
 .macro load_sbox_matrix
-	ldr MaskQ, .Lsbox_magic
+	ldr MASKQ, .Lsbox_magic
 	ldr TAHMaskQ, .Lsbox_magic+16
 	ldr TALMaskQ, .Lsbox_magic+32
 	ldr ATAHMaskQ, .Lsbox_magic+48
